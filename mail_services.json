@@ -1,0 +1,72 @@
+{
+    "gmail": {
+        "imap": {"host": "imap.gmail.com", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "smtp.gmail.com", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "pop.gmail.com", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["com"],
+        "SANs": ["gmail.com", "googlemail.com"]
+    },
+    "hotmail": {
+        "imap": {"host": "imap-mail.outlook.com", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "smtp-mail.outlook.com", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "outlook.office365.com", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["com", "de"],
+        "SANs": ["hotmail.com", "hotmail.de", "outlook.com", "outlook.de", "live.com"]
+    },
+    "gmx": {
+        "imap": {"host": "imap.gmx.com", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "mail.gmx.com", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "pop.gmx.com", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["com", "de", "at", "ch", "net", "us"],
+        "SANs": ["gmx.com", "gmx.de", "gmx.at", "gmx.ch", "gmx.net", "gmx.us"]
+    },
+    "web.de": {
+        "imap": {"host": "imap.web.de", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "smtp.web.de", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "pop3.web.de", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["de"],
+        "SANs": ["web.de"]
+    },
+    "yahoo": {
+        "imap": {"host": "imap.mail.yahoo.com", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "smtp.mail.yahoo.com", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "pop.mail.yahoo.com", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["com", "de", "co.uk", "co.jp", "fr", "it", "ca", "es", "com.au"],
+        "SANs": ["yahoo.com", "yahoo.de", "yahoo.co.uk", "yahoo.co.jp", "yahoo.fr", "yahoo.it", "yahoo.ca", "yahoo.es", "yahoo.com.au"]
+    },
+    "yandex": {
+        "imap": {"host": "imap.yandex.com", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "smtp.yandex.com", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "pop.yandex.com", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["com", "ru", "ua", "by", "kz"],
+        "SANs": ["yandex.com", "yandex.ru", "yandex.ua", "yandex.by", "yandex.kz"]
+    },
+    "icloud": {
+        "imap": {"host": "imap.mail.me.com", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "smtp.mail.me.com", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "pop.mail.me.com", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["com"],
+        "SANs": ["icloud.com", "me.com", "mac.com"]
+    },
+    "zoho": {
+        "imap": {"host": "imap.zoho.com", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "smtp.zoho.com", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "pop.zoho.com", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["com"],
+        "SANs": ["zoho.com", "zoho.eu", "zoho.in"]
+    },
+    "aol": {
+        "imap": {"host": "imap.aol.com", "port": 993, "tls": true, "password_policy": "normal"},
+        "smtp": {"host": "smtp.aol.com", "port": 587, "tls": true, "password_policy": "normal"},
+        "pop3": {"host": "pop.aol.com", "port": 995, "tls": true, "password_policy": "normal"},
+        "TLDs": ["com", "de"],
+        "SANs": ["aol.com", "aol.de"]
+    },
+    "protonmail": {
+        "imap": {"host": "imap.protonmail.com", "port": 993, "tls": true, "password_policy": "encrypted"},
+        "smtp": {"host": "smtp.protonmail.com", "port": 587, "tls": true, "password_policy": "encrypted"},
+        "pop3": {"host": "pop.protonmail.com", "port": 995, "tls": true, "password_policy": "encrypted"},
+        "TLDs": ["com"],
+        "SANs": ["protonmail.com", "proton.me"]
+    }
+}
