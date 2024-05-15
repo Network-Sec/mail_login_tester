@@ -18,14 +18,7 @@ Email: test123@gmail.com | Password: password12 | IMAP: False | SMTP: False | PO
 You can provide either single items or files with line separated items for both `Email` and `Password`. You can **mix** lists of full email addresses with usernames (without @gmail.com). If you provide usernames instead of email addresses, the script will try to use all configured mail services automatically. 
 
 ```bash
-mail_login_tester.py -h
-
-      __  __       _ _    _____         _                                                                                                                    
-     |  \/  |     |_| |  |_   _|       | |                                                                                                                   
-     | \  / | __ _ _| |    | | ___  ___| |_ ___  _ __                                                                                                        
-     | |\/| |/ _` | | |    | |/ _ \/ __| __/ _ \| '__|                                                                                                       
-     | |  | | (_| | | |   _| |  __/\__ \ ||  __/  |                                                                                                          
-     |_|  |_|\__,_|_|_|    |_|\___||___/\__\___/|_|                                                                                                          
+mail_login_tester.py -h                                                                                             
                                                                                                                                                              
 usage: mail_login_tester.py [-h] -u USERNAME -p PASSWORD [-v] [-t THREADS]
 
